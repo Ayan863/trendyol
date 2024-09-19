@@ -180,9 +180,30 @@ header nav ul li a.new span {
   border: 1px solid #666;
   border-radius: 8px;
 }
+.product .container .card .image {
+  position: relative;
+}
 .product .container .card .image img {
   width: 224px;
   height: 240px;
+}
+.product .container .card .image i {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  border: 1px solid transparent;
+  background-color: #151515;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);
+}
+.product .container .card .image i:hover {
+  color: #F27A1A;
 }
 .product .container .card .txt {
   display: flex;

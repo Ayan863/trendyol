@@ -173,7 +173,7 @@ header {
     }
 
 }
-
+ 
 .bannerSec {
     margin: 20px;
     display: flex;
@@ -222,9 +222,29 @@ header {
             border-radius: 8px;
 
             .image {
+                position: relative;
                 img {
                     width: 224px;
                     height: 240px;
+                }
+                i{
+                    position: absolute;
+                    right: 0;
+                    font-size: 14px;
+                    border: 1px solid transparent;
+                    background-color: #151515;
+                    width: 33px;
+                    height: 33px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    box-shadow:  1px 1px 2px 1px rgba(0, 0, 0, 0.23);
+                    &:hover{
+                        color: #F27A1A;
+                    }
+
                 }
             }
 
